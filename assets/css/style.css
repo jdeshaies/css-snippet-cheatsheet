@@ -1,0 +1,50 @@
+* {
+    background-color: #404040;
+}
+
+.snippets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 2px dashed white;
+    padding: 10px;
+    margin: 20px;
+    width: 28%;
+}
+
+pre {
+    background-image: linear-gradient(magenta,pink);
+    border-radius: 5px;
+    color: white;
+}
+
+h1 {
+    color: magenta;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+.top-message {
+    color: white;
+    text-align: center;
+}
+
+.card header {
+    border: solid white;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -20px;
+    padding: 5px;
+    color: magenta;
+    font-weight: bold;
+}
+
+footer {
+    color: magenta;
+    text-align: center;
+}
